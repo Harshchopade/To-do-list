@@ -1,0 +1,49 @@
+/* General body styling */
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+/* Title styling */
+h1 {
+    color: #4a4a4a;
+}
+
+/* Container for input and button */
+.input-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+/* Task input field */
+#task-input {
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+}
+
+/* 'Add' button */
+#add-task-btn {
+    background-color: #5c67f2;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
+}
+
+/* The list that holds all tasks */
+#task-list {
+    list-style-type: none;
+    padding: 0;
+    width: 400px;
+}
